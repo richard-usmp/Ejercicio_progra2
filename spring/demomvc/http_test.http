@@ -1,3 +1,4 @@
+#quitar comentario de contraseña en properties para que funcione localmente
 GET http://localhost:8080/employees HTTP/1.1
 Accept: application/json
 
