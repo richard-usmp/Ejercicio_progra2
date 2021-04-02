@@ -1,0 +1,25 @@
+GET http://localhost:8080/employees HTTP/1.1
+Accept: application/json
+
+GET http://localhost:8080/employee/2 HTTP/1.1
+Accept: application/json
+
+POST http://localhost:8080/employee HTTP/1.1
+Content-Type: application/json
+
+{
+    "precio" : "Probandooooo",
+    "producto" : "Testeandoooooo"
+}
+
+DELETE http://localhost:8080/employee/2 HTTP/1.1
+Accept: application/json
+
+PUT http://localhost:8080/employee HTTP/1.1
+Content-Type: application/json
+
+{
+    "id":"1",
+    "precio" : "actualizar1",
+    "producto" : "La actualizar1.1"
+}
