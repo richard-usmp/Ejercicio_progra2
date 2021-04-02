@@ -32,7 +32,7 @@ jobs:
           
           heroku_app_name: ${{ secrets.HEROKU_APP_NAME }}
 
-          dockerfile_directory: ./demomvc
+          dockerfile_directory: ./spring/demomvc
 
           dockerfile_name: DockerFile
 
